@@ -7,8 +7,14 @@ function nestedTarget() {
 }
 
 function deepestChild() {
-  let deepest = document.querySelector("div#grand-node");
-  let depth = 0;
+  let current = document.querySelector("div#grand-node");
+  let deepest;
 
-  
+  while(current) {
+    deepest = current;
+
+    current = current.querySelector();
+  }
+
+  return deepest;
 }
