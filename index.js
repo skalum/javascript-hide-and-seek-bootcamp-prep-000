@@ -13,8 +13,4 @@ function deepestChild() {
   console.log(deepest);
 }
 
-function findDeepestChild(el) {
-  const current
-}
-
 deepestChild();
