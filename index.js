@@ -13,7 +13,7 @@ function deepestChild() {
   while (current) {
     deepest = current;
 
-    current = current.querySelector(*);
+    current = current.querySelector("*");
   }
 
   return deepest;
